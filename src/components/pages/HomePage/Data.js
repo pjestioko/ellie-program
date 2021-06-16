@@ -10,3 +10,4 @@ export const homeObjOne = {
     img: 'images/aboutMe.png',
     alt: 'It ME'
 }
+
