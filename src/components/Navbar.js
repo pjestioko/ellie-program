@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IoFlowerOutline } from 'react-icons/io5';
 import { Button } from './Button';
+import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -27,7 +28,9 @@ function Navbar() {
                 <div className="navbar-container container">
                     <Link to="/" className="navbar-logo">
                         <IoFlowerOutline className="navbar_icon" />
-                        Kiala Elyse
+                        <p>
+                            Kiala Elyse
+                        </p>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
