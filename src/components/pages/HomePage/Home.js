@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutSection from '../../AboutSection';
+import Godparents from '../../Godparents';
 import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data';
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
         <>
             <AboutSection {...homeObjOne} />
             <AboutSection {...homeObjThree} />
-            <AboutSection {...homeObjTwo} />
+            <Godparents />
             <AboutSection {...homeObjFour} />
         </>
     )
