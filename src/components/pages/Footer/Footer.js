@@ -21,7 +21,7 @@ function Footer() {
             <h3>St. Elizabeth Church</h3>
             <p>750 Sequoia Dr</p>
             <p>Milpitas, CA 95035</p>
-            <h3>Time:</h3>
+            <h3>Time</h3>
             <p>12:00PM - 1:00PM</p>
           </div>
           <div className='footer-link-items'>
@@ -29,7 +29,7 @@ function Footer() {
             <h3>Cataldi Park</h3>
             <p>2900 Cataldi Dr</p>
             <p>San Jose, CA 95132</p>
-            <h3>Time:</h3>
+            <h3>Time</h3>
             <p>2:00PM - 6:00PM</p>
           </div>
         </div>
@@ -37,7 +37,6 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Contact Info</h2>
             <h3>My Dad</h3>
-            <p>750 Sequoia Dr</p>
             <p>(408) 655-5671</p>
             <h3>My Mom</h3>
             <p>(408) 707-0470</p>

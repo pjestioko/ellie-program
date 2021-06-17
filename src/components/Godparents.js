@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFire } from 'react-icons/fa';
-import { Button } from './Button';
 import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
@@ -30,9 +29,6 @@ function Godparents() {
                                         <li>Claudine Fernandez</li>
                                         <li>Cheryl Rasay</li>
                                     </ul>
-                                    {/* <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Choose Plan
-                                    </Button> */}
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="godparents__container-card">
@@ -61,9 +57,6 @@ function Godparents() {
                                         <li>Jason Ibarra</li>
                                         <li>Steven Law</li>
                                     </ul>
-                                    {/* <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Choose Plan
-                                    </Button> */}
                                 </div>
                             </Link>
                         </div>
