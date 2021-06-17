@@ -13,24 +13,26 @@ function Godparents() {
             <div>
                 <div className="godparents__section">
                     <div className="godparents__wrapper">
-                        <h1 className="godparents__heading">Godparents</h1>
+                        <h1 className="godparents__heading">MY GODPARENTS</h1>
                         <div className="godparents__container">
                             <Link to="/sign-up" className="godparents__container-card">
                                 <div className="godparents__container-cardInfo">
                                     <div className="icon">
                                         <FaFire />
                                     </div>
-                                    <h3>Starter</h3>
-                                    <h4>$8.99</h4>
-                                    <p>per month</p>
+                                    <h3>Secondary</h3>
                                     <ul className="godparents__container-features">
-                                        <li>100 transactions</li>
-                                        <li>2% cash back</li>
-                                        <li>$10,000 limit</li>
+                                        <li>Dnell Alix</li>
+                                        <li>Jazlin Baldoz</li>
+                                        <li>Mikayla Carpio</li>
+                                        <li>Gabbie Estioko</li>
+                                        <li>Ashley Fernandez</li>
+                                        <li>Claudine Fernandez</li>
+                                        <li>Cheryl Rasay</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
+                                    {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                                         Choose Plan
-                                    </Button>
+                                    </Button> */}
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="godparents__container-card">
@@ -38,17 +40,10 @@ function Godparents() {
                                     <div className="icon">
                                         <BsXDiamondFill />
                                     </div>
-                                    <h3>Gold</h3>
-                                    <h4>$29.99</h4>
-                                    <p>per month</p>
-                                    <ul className="godparents__container-features">
-                                        <li>1000 transactions</li>
-                                        <li>2.5% cash back</li>
-                                        <li>$100,000 limit</li>
-                                    </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='blue'>
-                                        Choose Plan
-                                    </Button>
+                                    <h3>Primary</h3>
+                                    <h4>May Estioko</h4>
+                                    <p>and</p>
+                                    <h4>Chris Rasay</h4>
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="godparents__container-card">
@@ -56,17 +51,19 @@ function Godparents() {
                                     <div className="icon">
                                         <GiCrystalize />
                                     </div>
-                                    <h3>Diamond</h3>
-                                    <h4>$99.99</h4>
-                                    <p>per month</p>
+                                    <h3>Secondary</h3>
                                     <ul className="godparents__container-features">
-                                        <li>Unlimited transactions</li>
-                                        <li>2.5% cash back</li>
-                                        <li>$100,000 limit</li>
+                                        <li>Julian Austria</li>
+                                        <li>Paul Estioko</li>
+                                        <li>Vincent Estioko</li>
+                                        <li>AJ Fernandez</li>
+                                        <li>Ryan Hilario</li>
+                                        <li>Jason Ibarra</li>
+                                        <li>Steven Law</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
+                                    {/* <Button buttonSize='btn--wide' buttonColor='primary'>
                                         Choose Plan
-                                    </Button>
+                                    </Button> */}
                                 </div>
                             </Link>
                         </div>

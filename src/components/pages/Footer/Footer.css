@@ -73,10 +73,11 @@
     color: #fff;
   }
   
-  .footer-link-items a {
+  .footer-link-items h3, p {
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
+    font-weight: lighter;
   }
   
   .footer-link-items a:hover {

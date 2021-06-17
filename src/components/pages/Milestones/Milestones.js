@@ -6,15 +6,9 @@ import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data';
 function Home() {
     return (
         <>
-            {/* INTRO */}
-            <AboutSection {...homeObjOne} />
-            {/* MILESTONES */}
             <AboutSection {...homeObjThree} />
-            {/* BAPTISM */}
-            {/* still need to develop baptism component */}
-            {/* GODPARENTS */}
+            <AboutSection {...homeObjOne} />
             <Godparents />
-            {/* THANKS */}
             <AboutSection {...homeObjFour} />
         </>
     )

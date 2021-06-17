@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-// import { Button } from '../../Button';
+import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 // import {
 //   FaFacebook,
@@ -14,60 +14,36 @@ import { IoFlowerOutline } from 'react-icons/io5';
 function Footer() {
   return (
     <div className='footer-container'>
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>The Ceremony</h2>
+            <h3>St. Elizabeth Church</h3>
+            <p>750 Sequoia Dr</p>
+            <p>Milpitas, CA 95035</p>
+            <h3>Time:</h3>
+            <p>12:00PM - 1:00PM</p>
           </div>
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Join Us After</h2>
+            <h3>Cataldi Park</h3>
+            <p>2900 Cataldi Dr</p>
+            <p>San Jose, CA 95132</p>
+            <h3>Time:</h3>
+            <p>2:00PM - 6:00PM</p>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Contact Info</h2>
+            <h3>My Dad</h3>
+            <p>750 Sequoia Dr</p>
+            <p>(408) 655-5671</p>
+            <h3>My Mom</h3>
+            <p>(408) 707-0470</p>
           </div>
         </div>
-      </div> */}
+      </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
@@ -77,50 +53,6 @@ function Footer() {
             </Link>
           </div>
           <small className='website-rights'>WEBSITE DEVELOPED BY MY UNCLE PAUL © 2021</small>
-          {/* <div className='social-icons'>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <FaFacebook />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <FaInstagram />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to={
-                '//'
-              }
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <FaTwitter />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <FaLinkedin />
-            </Link>
-          </div> */}
         </div>
       </section>
     </div>
