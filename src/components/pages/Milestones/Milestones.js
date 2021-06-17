@@ -1,17 +1,13 @@
 import React from 'react';
 import AboutSection from '../../AboutSection';
-import Godparents from '../../Godparents';
-import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data';
+import { homeObjThree } from './Data';
 
-function Home() {
+function Milestones() {
     return (
         <>
             <AboutSection {...homeObjThree} />
-            <AboutSection {...homeObjOne} />
-            <Godparents />
-            <AboutSection {...homeObjFour} />
         </>
     )
 }
 
-export default Home
+export default Milestones

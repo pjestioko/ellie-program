@@ -1,21 +1,12 @@
 import React from 'react';
-import AboutSection from '../../AboutSection';
 import Godparents from '../../Godparents';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
-function Home() {
+function Godparents() {
     return (
         <>
-            {/* GODPARENTS */}
             <Godparents />
-            {/* INTRO */}
-            <AboutSection {...homeObjOne} />
-            {/* MILESTONES */}
-            <AboutSection {...homeObjThree} />
-            {/* THANKS */}
-            <AboutSection {...homeObjFour} />
         </>
     )
 }
 
-export default Home
+export default Godparents
