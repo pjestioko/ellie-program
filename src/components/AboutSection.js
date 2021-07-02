@@ -23,11 +23,6 @@ function AboutSection({
                             <p className={lightTextDesc ? 'home__about-subtitle' : 'home__about-subtitle dark'}>
                                 {description}
                             </p>
-                            <Link to="/message">
-                                <Button buttonSize='btn--wide' buttonColor='blue'>
-                                    {buttonLabel}
-                                </Button>
-                            </Link>
                         </div>
                     </div>
                     <div className="col">

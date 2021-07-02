@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFire } from 'react-icons/fa';
-import { BsXDiamondFill } from 'react-icons/bs';
-import { GiCrystalize } from 'react-icons/gi';
+import { IoFlowerOutline, IoFlowerSharp } from 'react-icons/io5';
 import { IconContext } from 'react-icons/lib';
 import './Godparents.css';
 
@@ -14,10 +12,10 @@ function Godparents() {
                     <div className="godparents__wrapper">
                         <h1 className="godparents__heading">MY GODPARENTS</h1>
                         <div className="godparents__container">
-                            <Link to="/sign-up" className="godparents__container-card">
+                            <Link to="/" className="godparents__container-card">
                                 <div className="godparents__container-cardInfo">
                                     <div className="icon">
-                                        <FaFire />
+                                        <IoFlowerSharp />
                                     </div>
                                     <h3>Secondary</h3>
                                     <ul className="godparents__container-features">
@@ -31,10 +29,10 @@ function Godparents() {
                                     </ul>
                                 </div>
                             </Link>
-                            <Link to="/sign-up" className="godparents__container-card">
+                            <Link to="/" className="godparents__container-card">
                                 <div className="godparents__container-cardInfo">
                                     <div className="icon">
-                                        <BsXDiamondFill />
+                                        <IoFlowerOutline />
                                     </div>
                                     <h3>Primary</h3>
                                     <h4>May Estioko</h4>
@@ -42,10 +40,10 @@ function Godparents() {
                                     <h4>Chris Rasay</h4>
                                 </div>
                             </Link>
-                            <Link to="/sign-up" className="godparents__container-card">
+                            <Link to="/" className="godparents__container-card">
                                 <div className="godparents__container-cardInfo">
                                     <div className="icon">
-                                        <GiCrystalize />
+                                        <IoFlowerSharp />
                                     </div>
                                     <h3>Secondary</h3>
                                     <ul className="godparents__container-features">

@@ -1,5 +1,5 @@
 .navbar {
-    background: #1c2237;
+    background: #212510;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 2px solid #F2E437;
 }
 
 .nav-links {
@@ -96,7 +96,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active {
-        background: #1c2237;
+        background: #212510;
         left: 0;
         opacity: 1;
         transition: all 0.6s ease;
@@ -109,7 +109,7 @@
         display: table;
     }
     .nav-links:hover {
-        color: #f00946;
+        color: #F2E437;
         transform: scale(1.2);
         transition: all 0.3s ease;
     }

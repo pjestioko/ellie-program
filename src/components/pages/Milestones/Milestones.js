@@ -1,11 +1,10 @@
 import React from 'react';
-import AboutSection from '../../AboutSection';
-import { homeObjThree } from './Data';
+import MilestoneCards from '../../MilestoneCards';
 
 function Milestones() {
     return (
         <>
-            <AboutSection {...homeObjThree} />
+            <MilestoneCards />
         </>
     )
 }

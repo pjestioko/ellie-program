@@ -51,7 +51,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/godparents" className="nav-links" onClick={closeMobileMenu}>
+                                <Link to="/Godparents" className="nav-links" onClick={closeMobileMenu}>
                                     Godparents
                                 </Link>
                             </li>
@@ -59,23 +59,6 @@ function Navbar() {
                                 <Link to="/thanks" className="nav-links" onClick={closeMobileMenu}>
                                     Thank You
                                 </Link>
-                            </li>
-                            <li className="nav-btn">
-                                {button ? (
-                                    <Link to='/message' className="btn-link">
-                                        <Button buttonStyle='btn--outline'>
-                                            LEAVE A MESSAGE
-                                        </Button>
-                                    </Link>
-                                ) : (
-                                    <Link to='/message' className="btn-link">
-                                        <Button buttonStyle='btn--outline'
-                                            buttonSize='btn--mobile' 
-                                            onClick={closeMobileMenu}>
-                                            LEAVE A MESSAGE
-                                        </Button>
-                                    </Link>
-                                )}
                             </li>
                         </ul>
                     </div>

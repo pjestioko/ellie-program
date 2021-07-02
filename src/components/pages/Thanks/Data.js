@@ -43,10 +43,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Thank you',
-    headline: 'These people are awesome',
+    topLine: 'Just wanted to say...',
+    headline: 'Thank you!',
     description:
-      'Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul, Uncle Paul!',
+      'We would like to extend our thank you to everyone who came and helped make this party possible. For those who traveled far and near, we thank you all for making that time to celebrate with us. This past year has brought unpredictable surprises for everybody and we are so glad we were able to give Ellie this special moment to and celebrate her dedication to Christ and her first birthday. Again, thank you everyone for making this special day memorable! We would like to extend a special thank you to everyone who contributed to this special day. Below are our locals vendors list with special shout outs to our helping hands.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: 'images/svg-8.svg',

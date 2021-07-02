@@ -2,6 +2,8 @@ import React from 'react';
 import AboutSection from '../../AboutSection';
 import Godparents from '../../Godparents';
 import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data';
+import MilestoneCards from '../../MilestoneCards';
+import ThankYou from '../../ThankYou';
 
 function Home() {
     return (
@@ -9,11 +11,11 @@ function Home() {
             {/* INTRO */}
             <AboutSection {...homeObjOne} />
             {/* MILESTONES */}
-            <AboutSection {...homeObjThree} />
+            <MilestoneCards />
             {/* GODPARENTS */}
             <Godparents />
             {/* THANKS */}
-            <AboutSection {...homeObjFour} />
+            <ThankYou />
         </>
     )
 }

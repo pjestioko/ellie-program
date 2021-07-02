@@ -1,7 +1,7 @@
 import React from 'react';
 import Godparents from '../../Godparents';
 
-function Godparents() {
+function GodparentsPage() {
     return (
         <>
             <Godparents />
@@ -9,4 +9,4 @@ function Godparents() {
     )
 }
 
-export default Godparents
+export default GodparentsPage

@@ -1,11 +1,10 @@
 import React from 'react';
-import AboutSection from '../../AboutSection';
-import { homeObjFour } from './Data';
+import ThankYou from '../../ThankYou';
 
 function Thanks() {
     return (
         <>
-            <AboutSection {...homeObjFour} />
+            <ThankYou />
         </>
     )
 }
